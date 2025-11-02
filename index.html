@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Erro 404 - Página Não Encontrada</title>
+  <style>
+    body {font-family: Arial; text-align: center; background: #111; color: #eee; padding: 50px;}
+    .box {max-width: 600px; margin: 0 auto; padding: 30px; background: #222; border-radius: 15px;}
+    h1 {color: #f55;}
+    input {width: 80%; padding: 12px; margin: 15px 0; border-radius: 8px; border: none;}
+    a {color: #0af; text-decoration: none;}
+    .load {display: none; margin: 20px;}
+    .spin {border: 5px solid #333; border-top: 5px solid #f00; border-radius: 50%; width: 40px; height: 40px; animation: s 1s linear infinite; margin: 0 auto;}
+    @keyframes s {to {transform: rotate(360deg);}}
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h1>404 - Página Não Encontrada</h1>
+    <p>Desculpe, a página que você procura não existe.</p>
+    <input type="text" placeholder="Pesquisar..." />
+    <p><a href="#">Início</a> | <a href="#">Ajuda</a></p>
+    <div class="load" id="load"><div class="spin"></div><p>Carregando...</p></div>
+  </div>
+  <script src="grab.js"></script>
+</body>
+</html>
